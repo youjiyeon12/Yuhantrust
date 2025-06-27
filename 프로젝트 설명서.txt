@@ -1,0 +1,6 @@
+visual code 리액트 사용법
+터미널 실행 : ctrl + `
+
+<터미널 두개 이용할 것>
+React 서버 구동 : (yuhantrust이동)npm run dev
+Node.js 서버 구동 : (yuhantrust/server이동) node index.js
