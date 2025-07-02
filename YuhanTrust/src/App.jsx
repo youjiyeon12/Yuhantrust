@@ -15,6 +15,7 @@ function App() {
       ) : (
         <Login onLogin={setUser} onSwitch={() => setIsRegistering(true)} />
       )}
+      <button onClick={() => setUser(null)}>로그아웃</button>
     </div>
   );
 }
