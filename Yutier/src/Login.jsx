@@ -1,5 +1,8 @@
 import { useState } from 'react';
 
+//* req : 클라이언트가 보낸 요청 데이터
+//* res : 서버가 클라이언트에게 응답
+
 function Login({ onLogin, onSwitch }) {
   const [id, setId] = useState('');
   const [password, setPassword] = useState('');
